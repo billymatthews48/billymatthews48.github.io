@@ -1,0 +1,17 @@
+# Jekyll output and local dependency caches
+_site/
+.jekyll-cache/
+.sass-cache/
+.jekyll-metadata
+.bundle/
+vendor/bundle/
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Replit-local state
+.cache/
+.local/

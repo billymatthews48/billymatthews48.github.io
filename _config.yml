@@ -1,0 +1,27 @@
+title: "[Your Name] | Portfolio"
+name: "[Your Name]"
+description: "Personal portfolio for [Your Name]. Replace this description with a concise, factual introduction."
+url: "https://billymatthews48.github.io"
+baseurl: ""
+lang: en
+permalink: /:categories/:title/
+markdown: kramdown
+
+social:
+  name: "[Your Name]"
+  links:
+    - "https://www.linkedin.com/in/billy-matthews/"
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - PLAN.md
+  - Gemfile
+  - Gemfile.lock
+  - .ruby-version
+  - replit.md
+  - .bundle/
+  - vendor/

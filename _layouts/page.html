@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<div class="container content-container">
+  <article class="page-content{% if page.homepage %} page-content--home{% endif %}">
+    {% unless page.hide_title %}
+      <h1>{{ page.title | escape }}</h1>
+    {% endunless %}
+    {{ content }}
+  </article>
+</div>
