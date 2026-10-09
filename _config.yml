@@ -1,6 +1,6 @@
-title: "[Your Name] | Portfolio"
-name: "[Your Name]"
-description: "Personal portfolio for [Your Name]. Replace this description with a concise, factual introduction."
+title: "Billy Matthews"
+name: "Billy Matthews"
+description: "Billy Matthews is an MBA candidate at UC Berkeley Haas returning to Bain & Company, and a former strategy consultant at OneLeap and City Football Group."
 url: "https://billymatthews48.github.io"
 baseurl: ""
 lang: en
@@ -8,7 +8,7 @@ permalink: /:categories/:title/
 markdown: kramdown
 
 social:
-  name: "[Your Name]"
+  name: "Billy Matthews"
   links:
     - "https://www.linkedin.com/in/billy-matthews/"
 

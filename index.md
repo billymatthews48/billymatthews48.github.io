@@ -1,19 +1,17 @@
 ---
 layout: page
 title: Home
-description: "Personal portfolio for [Your Name]."
+description: "Billy Matthews is an MBA candidate at UC Berkeley Haas returning to Bain & Company, and a former strategy consultant at OneLeap and City Football Group."
 permalink: /
 hide_title: true
 homepage: true
 ---
 
-<p class="eyebrow">Personal portfolio</p>
+<p class="eyebrow">MBA candidate · UC Berkeley Haas</p>
 
-# Hello, I’m [Your Name].
+# Hello, I’m Billy Matthews.
 
-<p class="lead">I’m a <strong>[your role or professional focus]</strong> working on <strong>[your area of expertise or the problems you solve]</strong>.</p>
-
-<p class="placeholder-note"><strong>Placeholder:</strong> Replace the bracketed text with a short, accurate introduction. No biography or work details have been added yet.</p>
+<p class="lead">I’m an MBA candidate at UC Berkeley Haas, returning to <strong>Bain &amp; Company</strong> after a summer there as a Summer Associate. Before business school, I spent four years helping Fortune 500 and FTSE 100 companies with strategy, innovation, and new ventures.</p>
 
 <section class="explore" aria-labelledby="explore-heading">
   <h2 id="explore-heading">Explore</h2>
