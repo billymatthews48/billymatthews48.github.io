@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Contact
-description: "Contact [Your Name] through LinkedIn."
+description: "Contact Billy Matthews through LinkedIn."
 permalink: /contact/
 ---
 
-Email is intentionally not listed. You can connect with me through [LinkedIn](https://www.linkedin.com/in/billy-matthews/).
+The best way to reach me is through [LinkedIn](https://www.linkedin.com/in/billy-matthews/). Send me a message or a connection request there.

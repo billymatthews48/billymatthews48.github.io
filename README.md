@@ -5,8 +5,9 @@ This repository is a static Jekyll user site for GitHub Pages. The website files
 ## Update the site
 
 - Edit `index.md`, `about.md`, `work-experience.md`, and `contact.md` to update page content.
-- Replace every bracketed placeholder with details you have supplied and verified. Do not leave sample roles or invented achievements in the published site.
-- Update `title`, `name`, and `description` in `_config.yml` when you have the final public name and introduction.
+- Keep content factual and verifiable. Page content comes from the November 2025 résumé; leave out any figure you can't state in full rather than estimating it.
+- Each employer on the Work Experience page is a `<div class="experience-entry" markdown="1">` block, so its contents are still plain Markdown. Copy one block to add a role.
+- Update `title`, `name`, and `description` in `_config.yml` if your public name or introduction changes.
 - Update the LinkedIn URL in `_config.yml` and `contact.md` if needed. The current link is the one provided for this site.
 - Edit `_data/navigation.yml` to change the page navigation.
 - Adjust colors, spacing, and typography in `assets/css/portfolio.css`. The theme button switches between light and dark mode; its choice is stored only in the visitor's browser.
