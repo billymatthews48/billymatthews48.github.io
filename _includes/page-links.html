@@ -1,0 +1,12 @@
+<ul class="page-links">
+  {% for item in site.data.navigation %}
+    {% unless item.url == page.url %}
+      <li>
+        <a class="page-link" href="{{ item.url | relative_url }}">
+          <span class="page-link__title">{{ item.title | escape }}</span>
+          <span class="page-link__description">{{ item.description | escape }}</span>
+        </a>
+      </li>
+    {% endunless %}
+  {% endfor %}
+</ul>

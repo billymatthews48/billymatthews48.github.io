@@ -1,8 +1,12 @@
 - title: Home
   url: /
+  description: Start from the introduction.
 - title: About
   url: /about/
+  description: Who I am and the background behind my work.
 - title: Work Experience
   url: /work-experience/
+  description: Roles, responsibilities, and results.
 - title: Contact
   url: /contact/
+  description: The best way to get in touch.

@@ -15,4 +15,7 @@ homepage: true
 
 <p class="placeholder-note"><strong>Placeholder:</strong> Replace the bracketed text with a short, accurate introduction. No biography or work details have been added yet.</p>
 
-You can also <a href="{{ '/work-experience/' | relative_url }}">view work experience</a> or <a href="{{ '/contact/' | relative_url }}">get in touch</a>.
+<section class="explore" aria-labelledby="explore-heading">
+  <h2 id="explore-heading">Explore</h2>
+  {% include page-links.html %}
+</section>
