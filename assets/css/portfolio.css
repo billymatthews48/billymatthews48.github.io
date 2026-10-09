@@ -226,6 +226,57 @@ button {
   color: var(--color-text);
 }
 
+.page-content .page-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 11rem), 1fr));
+  gap: 0.85rem;
+  max-width: none;
+  margin: 1.25rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.page-content .page-links li {
+  margin: 0;
+}
+
+.page-link {
+  display: block;
+  height: 100%;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--color-border);
+  border-radius: 0.65rem;
+  background: var(--color-surface);
+  color: var(--color-text);
+  text-decoration: none;
+  box-shadow: var(--shadow-soft);
+}
+
+.page-link:hover {
+  border-color: var(--color-link);
+}
+
+.page-link__title {
+  display: block;
+  color: var(--color-link);
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
+}
+
+.page-link:hover .page-link__title {
+  text-decoration-thickness: 0.14em;
+}
+
+.page-link__description {
+  display: block;
+  margin-top: 0.25rem;
+  color: var(--color-muted);
+  font-size: 0.94rem;
+  line-height: 1.5;
+}
+
 .experience-entry {
   margin-top: 1.5rem;
   padding: 1.25rem;
